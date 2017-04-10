@@ -1,0 +1,6 @@
+[submodule "docker-kafka"]
+	path = docker-kafka
+	url = https://github.com/spotify/docker-kafka
+[submodule "bigmuddy-network-telemetry-pipeline"]
+	path = bigmuddy-network-telemetry-pipeline
+	url = https://github.com/cisco/bigmuddy-network-telemetry-pipeline
