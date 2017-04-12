@@ -1,4 +1,4 @@
-FROM pipeline-kafka:latest
+FROM akshshar/pipeline-kafka:latest
 
 Maintainer akshshar
 
