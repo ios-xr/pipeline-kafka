@@ -27,7 +27,7 @@ The Dockerfile in the roor of the github directory is used to automatically buil
 
 This docker image can be pulled by issuing:
 
-````
+```
 docker pull akshshar/pipeline-kafka
 
 ```
@@ -36,7 +36,8 @@ To run the docker image and supply your own pipeline.conf file for pipeline, mou
 
 ```
 docker run -itd --name pipeline-kafka -v /home/cisco/custom_pipeline.conf:/data/pipeline.conf -p 5432:5432 -p 5958:5958 -p 9092:9092 -p 2181:2181 pipeline-kafka
-``` 
+```   
+
 The ports opened and shared with the host are:
 
   *   5432:  TCP port opened by default pipeline.conf file. Can be changed by the user based on their pipeline.conf file
