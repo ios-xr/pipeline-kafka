@@ -21,7 +21,7 @@ RUN apt-get update && \
 
 RUN pip install --upgrade pip
 RUN pip install kafka-python
-ADD $KAFKA_DIR/scripts/start-kafka.sh /usr/bin/start-kafka.sh 
+ADD start-kafka.sh /usr/bin/start-kafka.sh 
 
 # Supervisor config
 ADD $KAFKA_DIR/supervisor/kafka.conf $KAFKA_DIR/supervisor/zookeeper.conf supervisor/pipeline.conf /etc/supervisor/conf.d/
