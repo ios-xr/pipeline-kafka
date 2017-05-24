@@ -23,7 +23,7 @@ to automatically fetch all the submodules.
 
 ## Automated Docker image Build
 
-The Dockerfile in the roor of the github directory is used to automatically build Docker images for pipeline-kafka on Dockerhub here: <https://hub.docker.com/r/akshshar/pipeline-kafka/>
+The Dockerfile in the root of the github directory is used to automatically build Docker images for pipeline-kafka on Dockerhub here: <https://hub.docker.com/r/akshshar/pipeline-kafka/>
 
 This docker image can be pulled by issuing:
 
